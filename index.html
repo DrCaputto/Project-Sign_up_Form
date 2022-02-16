@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container_left">
+            <div class="logo_container">
+                <img class="logo" src="media/odin-lined.png" alt="">
+            </div>
+            <div class="logo_text">
+                ODIN FOOD
+            </div>
+        </div>
+        <div class="container_right">
+            <div class="text">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </div>
+            <div class="sign_in_form">
+                <p id="sign_in_form-p">Let's do this!</p>
+                <form class="sign_form">
+                    <div class="names_row red">
+                        <div class="row">
+                            <label for="first_name">FIRST NAME:</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="row">
+                            <label for="last_name">LAST NAME:</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+                    <div class="contact_row  red">
+                        <div class="row">
+                            <label for="email">EMAIL:</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="row">
+                            <label for="phone_number">PHONE NUMBER:</label>
+                            <input type="tel" name="phone_number" id="phone_number">
+                        </div>
+                    </div>
+                    <div class="password_row  red">
+                        <div class="row">
+                            <label for="password">PASSWORD:</label>
+                            <input type="password" name="password" id="password">
+                            <p id="error"></p>
+                        </div>
+                        <div class="row">
+                            <label for="conf_passowrd">CONFIRM PASSWORD:</label>
+                            <input type="password" name="conf_passowrd" id="conf_passowrd">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="confirmation">
+                <button type="submit" class="create_acc"> Create Account</button>
+                <p id="account">Already have an account? <a href="index.html">Log in</a></p>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
